@@ -1,4 +1,5 @@
 # Marketing Mix Model AI — Agentic Analytics POC
+[Live App: MMM Agentic AI Streamlit](https://mmm-agentic-ai-kvhdwtb6qtgcr3hxufrwpc.streamlit.app/)
 
 > **An AI-powered Marketing Mix Modeling system that answers executive questions in plain English, quantifies channel ROI, and generates presentation-ready insights — all in under 60 seconds.**
 
