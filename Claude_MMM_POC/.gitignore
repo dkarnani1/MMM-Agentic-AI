@@ -1,0 +1,60 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .gitignore — MMM AI POC
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables (NEVER commit API keys)
+.env
+.env.*
+!.env.example
+
+# Generated charts (large binary files)
+outputs/*.png
+outputs/*.pdf
+outputs/*.svg
+outputs/*.html
+outputs/*.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE / editor
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Packaging / distribution
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Logs
+*.log
